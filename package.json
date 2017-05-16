@@ -1,13 +1,12 @@
 {
   "name": "svg-scaler",
   "version": "0.1.5",
-  "description": "help convert svg to png",
+  "description": "help to resize svg's",
   "main": "index.js",
   "dependencies": {
     "event-stream": "^3.1.5",
     "q": "^1.0.1",
     "sax": "^0.6.0",
-    "svgo": "^0.4.4",
     "svgpath": "^1.0.5"
   },
   "devDependencies": {
@@ -22,14 +21,14 @@
   "scripts": {
     "test": "mocha ./test/*.spec.js -R spec"
   },
-  "author": "morlay",
+  "author": "morlay & murphy",
   "license": "WTFPL",
   "repository": {
     "type": "git",
-    "url": "git://github.com/morlay/svg-scaler.git"
+    "url": "git://github.com/dasmurphy/svg-scaler.git"
   },
   "bugs": {
-    "url": "https://github.com/morlay/svg-scaler/issues"
+    "url": "https://github.com/dasmurphy/svg-scaler/issues"
   },
-  "homepage": "https://github.com/morlay/svg-scaler"
+  "homepage": "https://github.com/dasmurphy/svg-scaler"
 }
